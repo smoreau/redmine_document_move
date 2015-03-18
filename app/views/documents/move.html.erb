@@ -1,0 +1,9 @@
+<h2><%=l(:label_document_move)%></h2>
+
+<div class="box tabular">
+  <p><label><%=l(:title)%></label><%= @document.title %></p>
+  <p><%= label(:project, :parent_id, l(:field_parent)) %><%= project_select_tag(@project) %></p>
+</div>
+
+<p><%= submit_tag l(:button_save) %></p>
+
