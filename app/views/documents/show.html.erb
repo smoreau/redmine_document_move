@@ -3,7 +3,7 @@
 <%= link_to l(:button_edit), edit_document_path(@document), :class => 'icon icon-edit', :accesskey => accesskey(:edit) %>
 <% end %>
 <% if User.current.allowed_to?(:move_documents, @project) %>
-<%= link_to l(:button_move), move_document_path(@document), :class => 'icon icon-move', :accesskey => accesskey(:edit) %>
+<%= link_to l(:button_move), move_document_path(@document), :class => 'icon icon-move', :accesskey => accesskey(:move) %>
 <% end %>
 <% if User.current.allowed_to?(:delete_documents, @project) %>
 <%= delete_link document_path(@document) %>
