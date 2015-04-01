@@ -1,4 +1,5 @@
 require 'documents_helper_patch'
+require 'documents_controller_patch'
 
 Redmine::Plugin.register :redmine_document_move do
   name 'Move Document plugin'

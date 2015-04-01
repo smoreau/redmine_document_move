@@ -1,6 +1,6 @@
 require_dependency 'documents_helper'
 
-# Patches Redmine's Documents dynamically.
+# Patches Redmine's Documents Helper dynamically.
 # http://www.redmine.org/projects/redmine/wiki/Plugin_Internals#Adding-a-new-method
 
 module DocumentsHelperPatch
