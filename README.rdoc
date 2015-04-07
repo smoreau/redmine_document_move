@@ -16,7 +16,8 @@ The Document Move plugin is a Redmine plugin which allows to move documents from
 
 ==Screenshot
 
-In progress.
+{<img src="https://raw.github.com/smoreau/redmine_document_move/master/screenshot1.jpg" />}[https://raw.github.com/smoreau/redmine_document_move/master/screenshot1.jpg]
+{<img src="https://raw.github.com/smoreau/redmine_document_move/master/screenshot2.jpg" />}[https://raw.github.com/smoreau/redmine_document_move/master/screenshot2.jpg]
 
 ==Compatibility
 
