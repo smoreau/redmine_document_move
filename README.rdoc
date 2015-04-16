@@ -62,4 +62,4 @@ If you would like to report a bug or request a new feature you can open a new is
 
 This plugin is open-source and licensed under the "GNU General Public License v2" (http://www.gnu.org/licenses/old-licenses/gpl-2.0.html) (GPL). See the included <tt>COPYRIGHT.txt</tt> and <tt>GPL.txt</tt> files for details.
 
-* (C) 2013, Stéphane Moreau (http://www.logikdev.com)
+* (C) 2015, Stéphane Moreau (http://www.logikdev.com)
