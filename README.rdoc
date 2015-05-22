@@ -12,7 +12,7 @@ The currently available, latest release of the plugin is version <b>0.1.0</b>.
 
 ==Description
 
-The Document Move plugin is a Redmine plugin which allows to move documents from a project to another. This is done by adding a 'Move' icon in the upper right corner of the document.
+The Document Move plugin is a Redmine plugin which allows to move documents from a project to another. This is done by adding a 'Move' icon in the upper right corner of the document.<br/>
 This plugin comes with a new permission attribute called 'Moved documents' under the existing 'Documents' section.
 
 ==Screenshots
@@ -22,7 +22,7 @@ This plugin comes with a new permission attribute called 'Moved documents' under
 
 ==Compatibility
 
-This plugin is compatible with Redmine 3.0.x.
+This plugin is compatible with Redmine 3.0.x.<br/>
 It has been successfully tested on the versions 3.0.1 and 3.0.3.
 
 ==Obtaining 
