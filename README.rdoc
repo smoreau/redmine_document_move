@@ -23,7 +23,8 @@ This plugin comes with a new permission attribute called 'Moved documents' under
 
 ==Compatibility
 
-This plugin is compatible with Redmine 3.0.x.<br/>
+This plugin is compatible with Redmine 3.0.x.
+
 It has been successfully tested on the versions 3.0.1 and 3.0.3.
 
 ==Obtaining 
