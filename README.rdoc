@@ -13,6 +13,7 @@ The currently available, latest release of the plugin is version <b>0.1.0</b>.
 ==Description
 
 The Document Move plugin is a Redmine plugin which allows to move documents from a project to another. This is done by adding a 'Move' icon in the upper right corner of the document.
+This plugin comes with a new permission attribute called 'Moved documents' under the existing 'Documents' section.
 
 ==Screenshots
 
@@ -21,13 +22,14 @@ The Document Move plugin is a Redmine plugin which allows to move documents from
 
 ==Compatibility
 
-This plugin has been tested on Redmine 3.0.x.
+This plugin is compatible with Redmine 3.0.x.
+It has been successfully tested on the versions 3.0.1 and 3.0.3.
 
 ==Obtaining 
 
 <i>URL of the GitHub repository: http://github.com/smoreau/redmine_document_move</i>
 
-The source of this plugin can be "cloned" from the GitHub-repo using:
+The source of this plugin can be "cloned" from GitHub using:
 
   $ cd {REDMINE_ROOT}/vendor/plugins
   $ git clone git://github.com/smoreau/redmine_document_move.git
@@ -36,7 +38,8 @@ The source of this plugin can be "cloned" from the GitHub-repo using:
 
 1. Download the plugin from the available source (see http://www.redmine.org/plugins/redmine_document_move#Obtaining)
 2. Install the plugin as described at: http://www.redmine.org/wiki/redmine/Plugins (this plugin does not require a plugin database migration)
-3. Restart Redmine
+3. Install the required gems by running the following command: <tt>bundle install</tt>
+4. Restart Redmine
 
 ==Setup
 
@@ -44,14 +47,14 @@ Nothing to setup. This is the beauty of it!
 
 ==Upgrading
 
-1. Backup the currently deployed Document Move plugin (<tt>cp -r /vendor/plugins/redmine_document_move /vendor/plugins/redmine_document_move-backup</tt>)
-2. Reinstall the updated plugin:
-   * using the command: <tt>git pull</tt>
-3. Restart your Redmine
+1. Backup the currently deployed Document Move plugin (<tt>cp -r plugins/redmine_document_move plugins/redmine_document_move-backup</tt>)
+2. Upgrade the plugin using the command: <tt>git pull</tt>
+3. Install the required gems by running the following command: <tt>bundle install</tt>
+4. Restart your Redmine
 
 ==Uninstalling
 
-1. Remove the directory <i>"redmine_document_move"</i> from the plugin-directory <i>"../vendor/plugins"</i>
+1. Remove the directory <i>"redmine_document_move"</i> from the plugins directory
 2. Restart Redmine
 
 ==Support
