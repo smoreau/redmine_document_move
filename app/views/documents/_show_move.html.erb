@@ -1,3 +1,0 @@
-<% if User.current.allowed_to?(:move_documents, @project) %>
-<%= link_to l(:button_move), move_document_path(@document), :class => 'icon icon-move' %>
-<% end %>

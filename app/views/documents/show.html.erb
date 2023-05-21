@@ -1,0 +1,5 @@
+<% html = Nokogiri::HTML.fragment(render(:parent)) %>
+<% if User.current.allowed_to?(:move_documents, @project) %>
+<% html.at_css("div.contextual").first_element_child.before(link_to(l(:button_move), move_document_path(@document), :class => 'icon icon-move')) %>
+<% end %>
+<%= raw html %>
