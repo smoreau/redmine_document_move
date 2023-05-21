@@ -1,3 +1,5 @@
+$LOAD_PATH.unshift "#{File.dirname(__FILE__)}/lib"
+
 require 'documents_helper_patch'
 require 'documents_controller_patch'
 
