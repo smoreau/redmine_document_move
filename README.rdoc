@@ -32,13 +32,13 @@ It has been successfully tested on the version 5.0.5.
 The source of this plugin can be "cloned" from GitHub using:
 
   $ cd {REDMINE_ROOT}/plugins
-  $ git clone git://github.com/smoreau/redmine_document_move.git
+  $ git clone git@github.com:smoreau/redmine_document_move.git
 
 ==Installation
 
 1. Install the redmine_base_deface plugin (see https://github.com/jbbarth/redmine_base_deface)
 2. Download the plugin from the available source (see http://www.redmine.org/plugins/redmine_document_move#Obtaining)
-3. Install the plugin as described at: http://www.redmine.org/wiki/redmine/Plugins (this plugin does not require a plugin database migration)
+3. Install the plugin as described at: http://www.redmine.org/projects/redmine/wiki/Plugins (this plugin does not require a plugin database migration)
 4. Install the required gems by running the following command: <tt>bundle install</tt>
 5. Restart Redmine
 
@@ -66,4 +66,4 @@ If you would like to report a bug or request a new feature you can open a new is
 
 This plugin is open-source and licensed under the "GNU General Public License v2" (http://www.gnu.org/licenses/old-licenses/gpl-2.0.html) (GPL). See the included <tt>COPYRIGHT.txt</tt> and <tt>GPL.txt</tt> files for details.
 
-* (C) 2023, Stéphane Moreau (http://www.logikdev.com)
+* (C) 2024, Stéphane Moreau (http://www.logikdev.com)
