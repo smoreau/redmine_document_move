@@ -8,7 +8,7 @@ A Redmine plugin which allows to move documents from a project to another.
 
 ==Latest release
 
-The currently available, latest release of the plugin is version <b>0.2.0</b>.
+The currently available, latest release of the plugin is version <b>0.3.0</b>.
 
 ==Description
 
@@ -21,11 +21,11 @@ The Document Move plugin is a Redmine plugin which allows to move documents from
 
 ==Compatibility
 
-This plugin is compatible with Redmine 5.0.x.
+This plugin is compatible with Redmine 6.0.x.
 
-It has been successfully tested on the version 5.0.5.
+It has been successfully tested on the version 6.0.2.
 
-==Obtaining 
+==Obtaining
 
 <i>URL of the GitHub repository: http://github.com/smoreau/redmine_document_move</i>
 
